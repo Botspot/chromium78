@@ -1,0 +1,5 @@
+if grep -q ARMv6 /proc/cpuinfo; then
+	CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --disable-quic --enable-tcp-fast-open"
+else
+	CHROMIUM_FLAGS="${CHROMIUM_FLAGS} --disable-quic --enable-tcp-fast-open --ppapi-flash-path=/usr/lib/chromium-browser/libpepflashplayer.so --ppapi-flash-args=enable_stagevideo_auto=0 --ppapi-flash-version="
+fi
