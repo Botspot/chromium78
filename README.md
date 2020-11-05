@@ -16,6 +16,8 @@ cd ~
 ## To install:
 ```
 sudo cp -af ~/chromium78/. /
+#fix for chromium profile
+rm ~/'.config/chromium/Default/Web Data'
 ```
 ## To revert back to latest chromium-browser:
 ```
