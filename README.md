@@ -1,7 +1,6 @@
 # chromium78
 Downgrade to chromium-browser v78 on a Raspberry Pi  
 [![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)  
-^ Will be on Pi-Apps very soon.
 
 ## To download:
 ```
